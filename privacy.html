@@ -27,6 +27,8 @@
       line-height: 1.72;
       font-size: 16px;
       -webkit-font-smoothing: antialiased;
+      word-break: keep-all;
+      overflow-wrap: break-word;
     }
     .wrap {
       max-width: 720px;
@@ -40,6 +42,7 @@
       color: var(--ink-900);
       letter-spacing: -0.02em;
       margin: 0 0 16px;
+      text-wrap: balance;
     }
     .note {
       background: var(--accent-soft);
@@ -59,11 +62,12 @@
       margin: 36px 0 12px;
       padding-top: 22px;
       border-top: 1px solid var(--ink-200);
+      text-wrap: balance;
     }
     section:first-of-type h2 { border-top: none; padding-top: 0; margin-top: 28px; }
-    p { margin: 0 0 12px; }
+    p { margin: 0 0 12px; text-wrap: pretty; }
     ul { margin: 0 0 12px; padding-left: 20px; }
-    li { margin: 0 0 8px; }
+    li { margin: 0 0 8px; text-wrap: pretty; }
     strong { color: var(--ink-900); font-weight: 700; }
     code {
       background: var(--accent-soft);
