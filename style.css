@@ -45,6 +45,16 @@ h1 {
 }
 .meta { font-size: 13.5px; color: var(--ink-500); margin: 0; }
 .lead { margin: 22px 0 0; color: var(--ink-700); }
+.badge {
+  display: inline-block;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-size: 12px;
+  font-weight: 700;
+  padding: 3px 11px;
+  border-radius: 999px;
+  margin: 0 0 12px;
+}
 h2 {
   font-size: 18px;
   font-weight: 800;
