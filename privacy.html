@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="robots" content="noindex" />
+  <title>모찌(MOCHI) 개인정보처리방침</title>
+  <style>
+    :root {
+      --bg: #FAF8FF;
+      --surface: #FFFFFF;
+      --ink-900: #1F1B2E;
+      --ink-700: #423B57;
+      --ink-500: #6B6480;
+      --ink-200: #E7E1F2;
+      --accent: #7C5CFF;
+      --accent-soft: #F1ECFF;
+      --radius: 16px;
+    }
+    * { box-sizing: border-box; -webkit-text-size-adjust: 100%; }
+    html { font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard", sans-serif; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink-700);
+      line-height: 1.72;
+      font-size: 16px;
+      -webkit-font-smoothing: antialiased;
+    }
+    .wrap {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 32px 20px calc(56px + env(safe-area-inset-bottom));
+    }
+    header { margin-bottom: 28px; }
+    h1 {
+      font-size: 25px;
+      font-weight: 800;
+      color: var(--ink-900);
+      letter-spacing: -0.02em;
+      margin: 0 0 16px;
+    }
+    .note {
+      background: var(--accent-soft);
+      border-radius: var(--radius);
+      padding: 16px 18px;
+      font-size: 14.5px;
+      color: var(--ink-700);
+      margin: 0 0 14px;
+    }
+    .meta { font-size: 13.5px; color: var(--ink-500); margin: 0; }
+    .lead { margin: 22px 0 0; color: var(--ink-700); }
+    h2 {
+      font-size: 18px;
+      font-weight: 800;
+      color: var(--ink-900);
+      letter-spacing: -0.01em;
+      margin: 36px 0 12px;
+      padding-top: 22px;
+      border-top: 1px solid var(--ink-200);
+    }
+    section:first-of-type h2 { border-top: none; padding-top: 0; margin-top: 28px; }
+    p { margin: 0 0 12px; }
+    ul { margin: 0 0 12px; padding-left: 20px; }
+    li { margin: 0 0 8px; }
+    strong { color: var(--ink-900); font-weight: 700; }
+    code {
+      background: var(--accent-soft);
+      color: var(--accent);
+      border-radius: 6px;
+      padding: 1px 6px;
+      font-size: 13.5px;
+      font-family: "SF Mono", ui-monospace, Menlo, monospace;
+    }
+    .table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 0 0 12px; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: var(--surface);
+      border-radius: var(--radius);
+      overflow: hidden;
+      font-size: 14.5px;
+      min-width: 480px;
+    }
+    th, td {
+      text-align: left;
+      padding: 12px 14px;
+      border-bottom: 1px solid var(--ink-200);
+      vertical-align: top;
+    }
+    th { background: var(--accent-soft); color: var(--ink-900); font-weight: 700; }
+    tr:last-child td { border-bottom: none; }
+    .contact {
+      background: var(--surface);
+      border-radius: var(--radius);
+      padding: 16px 18px;
+      margin: 0 0 12px;
+    }
+    .contact div { margin: 0 0 6px; }
+    .contact div:last-child { margin-bottom: 0; }
+    a { color: var(--accent); }
+    footer {
+      margin-top: 40px;
+      font-size: 13.5px;
+      color: var(--ink-500);
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <h1>모찌(MOCHI) 개인정보처리방침 <span style="font-weight:600;color:var(--ink-500);font-size:15px;">(베타 테스트용)</span></h1>
+      <p class="note">본 방침은 모찌(MOCHI) <strong>베타 테스트(TestFlight 등)</strong> 참여자에게 적용됩니다. 정식 출시 시 별도 방침으로 갱신될 수 있습니다.</p>
+      <p class="meta">시행일: 2026년 6월 13일 · 운영: 팀 세얼간이</p>
+      <p class="lead">모찌는 스크린샷·링크·메모를 멀티모달 AI로 분석해 "놓치기 쉬운 순간을 쉽게 남기고, 필요한 기억이 쉽게 떠오르게" 돕는 서비스입니다. 그 특성상 화면 캡처 등 민감할 수 있는 정보가 입력될 수 있어, 무엇을 어떻게 다루는지 투명하게 밝힙니다.</p>
+    </header>
+
+    <section>
+      <h2>1. 수집하는 개인정보 항목</h2>
+      <ul>
+        <li><strong>계정 정보</strong>: 소셜 로그인(Apple) 식별자, 이메일(제공 시)</li>
+        <li><strong>이용자가 저장한 콘텐츠</strong>: 스크린샷·이미지, 링크(URL), 텍스트·메모</li>
+        <li><strong>콘텐츠에서 파생된 데이터</strong>: OCR 텍스트, 의미 임베딩, AI 분류·요약 결과, 개인화 프로필(이용 성향의 추상 요약)</li>
+        <li><strong>기기·이용 정보</strong>: 푸시 토큰, 앱 동작 로그(오류 진단용)</li>
+      </ul>
+      <p>원본 스크린샷·이미지에 포함된 개인정보 자체를 수집 목적으로 삼지 않으며, 아래 원칙에 따라 최소한으로 처리합니다.</p>
+    </section>
+
+    <section>
+      <h2>2. 개인정보의 처리 목적</h2>
+      <ul>
+        <li>캡처한 콘텐츠의 분석·분류·검색·요약 등 핵심 기능 제공</li>
+        <li>일정·할 일·지식·메모 등 의도(intent) 기반 정리 및 회수</li>
+        <li>계정 인증 및 기기 간 데이터 동기화·복구</li>
+        <li>오류 진단 및 서비스 안정성 확보</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>3. 데이터 저장 위치와 보호 원칙</h2>
+      <ul>
+        <li><strong>원본 스크린샷·이미지는 기본적으로 이용자의 iPhone 로컬 저장소에만 보관</strong>됩니다.</li>
+        <li>서버 분석에 필요한 경우, <strong>업로드용 파생본 이미지</strong>가 Google Cloud Storage에 이용자별(owner-scoped)로 분리 저장됩니다. 이는 분석·검색·기기 변경 후 복구를 위해 사용됩니다.</li>
+        <li><strong>민감정보 보호</strong>: 카드번호·계좌 등 민감한 값은 기기에서 먼저 감지해, 원본 값 대신 의미만 보존한 형태로 서버에 전송합니다. (예: <code>신한카드 1234-5678-9012-3456</code> → <code>[신용카드: 끝자리 3456]</code>)</li>
+        <li>원본, OCR 텍스트, 임베딩, 분석 결과 모두 개인정보 파생 데이터로 동일하게 취급·보호합니다.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>4. 보유 및 이용 기간 (베타 테스트)</h2>
+      <ul>
+        <li><strong>베타 테스트 종료 후 30일 이내에, 서버에 보관된 모든 스크린샷·이미지 및 그로부터 파생된 데이터를 일괄 삭제</strong>합니다.</li>
+        <li>이용자가 테스트 도중 항목 삭제 또는 계정 삭제를 요청하면, 해당 데이터는 지체 없이 삭제됩니다.</li>
+        <li>기기 로컬에 저장된 데이터는 앱 삭제 시 함께 제거됩니다.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>5. 제3자 제공 및 처리위탁</h2>
+      <p>모찌는 이용자의 개인정보를 판매하거나 제3자에게 제공하지 않습니다. 다만 핵심 기능 제공을 위해 아래 사업자에게 데이터 처리를 위탁합니다.</p>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>수탁자</th><th>위탁 업무</th><th>처리 데이터</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Google Cloud (Vertex AI)</td><td>멀티모달 AI 분석·분류</td><td>이미지·텍스트·URL</td></tr>
+            <tr><td>Google Cloud Storage</td><td>파생 이미지 저장</td><td>업로드용 파생 이미지</td></tr>
+            <tr><td>Voyage AI</td><td>의미 임베딩·검색 정확도 향상</td><td>분석용 텍스트</td></tr>
+            <tr><td>Tavily (선택 기능)</td><td>웹 검색 보강</td><td>검색 질의어</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>웹 검색 등 외부로 질의가 나가는 기능은, 이용자가 채팅에서 명시적으로 요청한 경우에 한해 동작합니다.</p>
+    </section>
+
+    <section>
+      <h2>6. 서비스 품질 개선을 위한 활용</h2>
+      <ul>
+        <li>이용자가 저장한 콘텐츠는 <strong>이용자의 동의가 있는 경우에 한해, 베타 테스트 기간 동안 서비스 품질 개선 목적으로만</strong> 활용될 수 있습니다.</li>
+        <li><strong>운영진은 이용자의 허락 없이 이용자의 콘텐츠를 열람하지 않습니다.</strong></li>
+        <li>품질 개선 활용에 대한 동의는 언제든 철회할 수 있으며, 철회는 향후 처리에만 적용됩니다.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>7. 이용자의 권리</h2>
+      <p>이용자는 언제든지 본인의 개인정보에 대해 다음을 요청할 수 있습니다.</p>
+      <ul>
+        <li>열람, 정정, 삭제, 처리정지</li>
+        <li>계정 및 관련 데이터 전체 삭제</li>
+      </ul>
+      <p>요청은 아래 연락처로 접수하며, 지체 없이 처리합니다.</p>
+    </section>
+
+    <section>
+      <h2>8. 안전성 확보 조치</h2>
+      <ul>
+        <li>전송 구간 암호화(HTTPS) 및 인증 토큰 기반 접근 통제</li>
+        <li>이용자별 데이터 격리(owner-scoped)로 타 이용자 데이터 접근 차단</li>
+        <li>민감정보 on-device 사전 감지·마스킹</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>9. 개인정보 보호책임자</h2>
+      <p>개인정보 처리에 관한 문의·요청·불만은 아래로 연락해 주세요.</p>
+      <div class="contact">
+        <div><strong>담당자</strong>: 송준서</div>
+        <div><strong>이메일</strong>: <a href="mailto:jun@indexfinger.org">jun@indexfinger.org</a></div>
+      </div>
+    </section>
+
+    <section>
+      <h2>10. 고지 의무</h2>
+      <p>본 방침의 내용이 변경되는 경우, 변경 사항을 본 페이지를 통해 공지합니다.</p>
+    </section>
+
+    <footer>시행일: 2026년 6월 13일</footer>
+  </main>
+</body>
+</html>
